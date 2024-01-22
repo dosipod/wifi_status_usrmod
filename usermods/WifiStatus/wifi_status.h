@@ -5,7 +5,7 @@
 
 #ifndef USERMOD_WIFI_STATUS_LED_PIN
   #ifdef ARDUINO_ARCH_ESP32
-    #define USERMOD_WIFI_STATUS_LED_PIN 2 
+    #define USERMOD_WIFI_STATUS_LED_PIN 4
   #else //ESP8266 boards
     #define USERMOD_WIFI_STATUS_LED_PIN 16
   #endif
